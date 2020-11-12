@@ -110,15 +110,20 @@ footer{
     }
 
     article{
-        width: 60vw;
+        width: 90vw;
     }
 
     aside{
-        width: 35vw;
+        width: 44vw;
+        display: inline-block;
     }
 
     #bottom-aside{
-        margin-left: 62vw;
+        margin-left: 44vw;
+    }
+
+    .top-section, .bottom-section{
+        height: auto;
     }
 }
 
