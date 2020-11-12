@@ -96,3 +96,29 @@ aside+aside{
 footer{
     background-color: #d2d3ab;
 }
+
+@media screen and (max-width: 400px){
+    nav{
+        margin: 0;
+        display: block;
+        width: 100vw;
+        height: 15vh;
+    }
+
+    .groupe-section, section{
+        width: 100vw;
+    }
+
+    article{
+        width: 60vw;
+    }
+
+    aside{
+        width: 35vw;
+    }
+
+    #bottom-aside{
+        margin-left: 62vw;
+    }
+}
+
