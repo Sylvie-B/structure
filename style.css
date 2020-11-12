@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-size: 20px;
     box-sizing: border-box;
 }
 
@@ -9,8 +8,15 @@ html{
     font-size: 62.5%;
 }
 
+body{
+    margin: 10px;
+    width: 100%;
+}
+
 header, nav, section, article, aside, footer{
     border: 1px solid black;
+    overflow: hidden;
+    margin: 5px;
 }
 
 .no-border{
@@ -19,9 +25,10 @@ header, nav, section, article, aside, footer{
 }
 
 header{
-    width: 100rem;
-    height: 15rem;
+    width: 100em;
+    height: 15em;
     background-color: #fbd8bc;
+
 }
 
 .container{
@@ -29,22 +36,23 @@ header{
 }
 
 nav{
-    width: 20rem;
-    height: 30rem;
+    width: 20em;
+    height: 30em;
     background-color: #b7dde8;
     display: inline-block;
+    margin-bottom: 76em;
 }
 
 section{
     background-color: #d8d8d8;
-    width: 75rem;
+    width: 75em;
     padding: 5px;
 }
 
 article{
     background-color: #8db1e3;
-    width: 40rem;
-    height: 40rem;
+    width: 40em;
+    height: 45em;
     display: inline-block;
 }
 
@@ -54,24 +62,24 @@ article{
 
 aside{
     background-color: #d99690;
-    width: 20rem;
-    height: 20rem;
+    width: 20em;
+    height: 20em;
 }
 
 footer{
     background-color: #d2d3ab;
-    width: 100rem;
-    height: 15rem;
+    width: 100em;
+    height: 15em;
 }
 
 .top-section{
-    height: 65rem;
+    height: 65em;
 }
 
 .bottom-section{
-    height: 40rem;
+    height: 40em;
 }
 
 .bottom-section aside{
-    margin-left: 40rem;
+    margin-left: 40em;
 }
