@@ -4,82 +4,95 @@
     box-sizing: border-box;
 }
 
-html{
-    font-size: 62.5%;
-}
-
 body{
-    margin: 10px;
     width: 100%;
 }
 
-header, nav, section, article, aside, footer{
-    border: 1px solid black;
-    overflow: hidden;
-    margin: 5px;
+#container{
+    width: 100vw;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    background-color: antiquewhite;
 }
 
-.no-border{
-    border: 0;
-    text-align: left;
+header, footer{
+    width: 100vw;
+    height: 15vh;
+    font-size: 25px;
+    padding-top: 2.5vw;
 }
 
 header{
-    width: 100em;
-    height: 15em;
     background-color: #fbd8bc;
-
 }
 
-.container{
+nav, .groupe-section, article, .groupe-aside{
     display: inline-block;
+    overflow: hidden;
+}
+
+header, nav, section, article, aside, footer{
+    border: solid 1px black;
 }
 
 nav{
-    width: 20em;
-    height: 30em;
+    width: 15vw;
+    height: 30vh;
     background-color: #b7dde8;
-    display: inline-block;
-    margin-bottom: 76em;
+    margin-bottom: 76vh;
+    margin-right: 1vw;
+}
+
+.groupe-section{
+    width: 80vw;
+}
+
+.texte{
+    border: 0;
+    padding-left: 1vw;
+    padding-top: 1vh;
+    text-align: left;
+    height: 10vh;
 }
 
 section{
-    background-color: #d8d8d8;
-    width: 75em;
+    width: 80vw;
+    margin-top: 1vh;
     padding: 5px;
+    display: inline-block;
 }
 
-article{
+.top-section{
+    height: 65vh;
+    background-color: #696969;
+}
+
+.bottom-section{
+    height: 40vh;
+    background-color: dimgrey;
+}
+
+article {
     background-color: #8db1e3;
-    width: 40em;
-    height: 45em;
-    display: inline-block;
+    width: 45vw;
+    height: 45vh;
 }
 
-.aside-1-2{
-    display: inline-block;
-}
-
-aside{
+aside {
     background-color: #d99690;
-    width: 20em;
-    height: 20em;
+    width: 30vw;
+    height: 22vh;
+}
+
+aside+aside{
+    margin-top: 1vh;
+}
+
+#bottom-aside{
+    margin-left: 47vw;
 }
 
 footer{
     background-color: #d2d3ab;
-    width: 100em;
-    height: 15em;
-}
-
-.top-section{
-    height: 65em;
-}
-
-.bottom-section{
-    height: 40em;
-}
-
-.bottom-section aside{
-    margin-left: 40em;
 }
